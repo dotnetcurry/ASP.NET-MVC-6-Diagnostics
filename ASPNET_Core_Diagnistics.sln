@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{88414E95-D9F0-4B30-ABB3-F349D048637B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DC0E3B34-AB68-4842-9435-27C81465A634}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ASPNET_Core_Diagnostics", "src\ASPNET_Core_Diagnistics\ASPNET_Core_Diagnostics.xproj", "{D8EC4454-192B-4E4D-A06A-596A4E5F2418}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8EC4454-192B-4E4D-A06A-596A4E5F2418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8EC4454-192B-4E4D-A06A-596A4E5F2418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8EC4454-192B-4E4D-A06A-596A4E5F2418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8EC4454-192B-4E4D-A06A-596A4E5F2418}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8EC4454-192B-4E4D-A06A-596A4E5F2418} = {88414E95-D9F0-4B30-ABB3-F349D048637B}
+	EndGlobalSection
+EndGlobal
